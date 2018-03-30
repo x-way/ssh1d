@@ -1,0 +1,5 @@
+[Unit]
+Description = ssh1d - fake SSH-1 daemon
+
+[Service]
+ExecStart = /usr/bin/ssh1d
