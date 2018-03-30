@@ -1,0 +1,17 @@
+pkgbase = ssh1d
+	pkgdesc = ssh1d - fake SSH-1 daemon
+	pkgver = 0.1
+	pkgrel = 1
+	url = http://github.com/x-way/ssh1d/
+	arch = x86_64
+	arch = i686
+	license = MIT
+	makedepends = go
+	depends = systemd
+	options = !strip
+	options = !emptydirs
+	source = http://github.com/x-way/ssh1d/ssh1d-0.1.tar.gz
+	sha256sums = bb37678fbbf3ea458e2e3d21c6cacdd1e8e04c3e9767091988e390b32b3fa2bb
+
+pkgname = ssh1d
+
