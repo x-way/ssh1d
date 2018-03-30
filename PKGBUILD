@@ -10,7 +10,7 @@ license=('MIT')
 depends=('systemd')
 makedepends=('go')
 options=('!strip' '!emptydirs')
-source=("http://github.com/x-way/$pkgname/$pkgname-$pkgver.tar.gz")
+source=("http://github.com/x-way/$pkgname/archive/$pkgver.tar.gz")
 sha256sums=('bb37678fbbf3ea458e2e3d21c6cacdd1e8e04c3e9767091988e390b32b3fa2bb')
 
 prepare() {

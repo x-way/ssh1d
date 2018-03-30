@@ -10,7 +10,7 @@ pkgbase = ssh1d
 	depends = systemd
 	options = !strip
 	options = !emptydirs
-	source = http://github.com/x-way/ssh1d/ssh1d-0.1.tar.gz
+	source = http://github.com/x-way/ssh1d/archive/0.1.tar.gz
 	sha256sums = bb37678fbbf3ea458e2e3d21c6cacdd1e8e04c3e9767091988e390b32b3fa2bb
 
 pkgname = ssh1d
